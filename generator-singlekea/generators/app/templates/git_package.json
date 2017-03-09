@@ -1,0 +1,23 @@
+{
+  "name": "<%=appname%>",
+  "version": "0.1.0",
+  "description": "Describe here",
+  "scripts": {
+    "run": "grunt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keatec/<%=appname%>.git"
+  },
+  "author": "Keatec GmbH maybe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/keatec/<%=appname%>/issues"
+  },
+  "homepage": "https://github.com/keatec/<%=appname%>#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-copy": "^1.0.0"
+  }
+}
