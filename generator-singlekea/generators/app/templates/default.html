@@ -21,6 +21,7 @@
             <button class="action" data-action="showme">ShowMe</button>
         </div>
         <div style="display:none" class="htmlGenerators">
+                <div data-name="messages" data-generatorref="lib/components/h5generator/generators/messages.html"/>
                 <div data-generator="demo1">
                     {content}
                 </div>
@@ -34,7 +35,9 @@
         <script src="js/<%=appname%>.js"></script>
         <script>
             $(document).ready(function () {
-                <%=appname%>.start();
+                generators.waitFor().then (function () {
+                    <%=appname%>.start();
+                })
             });
         </script>
     </body>
