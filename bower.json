@@ -1,0 +1,19 @@
+{
+  "name": "sofi",
+  "homepage": "https://github.com/keatec/sofi",
+  "description": "Describe here",
+  "main": "js/sofi.js",
+  "keywords": [
+  ],
+  "authors": [
+    "Keatec GmbH"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "<%=appname%>",
+  "homepage": "https://github.com/keatec/<%=appname%>",
+  "description": "Describe here",
+  "main": "js/<%=appname%>.js",
+  "keywords": [
+  ],
+  "authors": [
+    "Keatec GmbH"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

@@ -1,9 +1,8 @@
 {
-  "name": "ll",
+  "name": "sofi",
   "version": "0.1.0",
   "description": "Describe here",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "run": "grunt"
   },
   "author": "Keatec GmbH",
