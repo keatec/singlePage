@@ -15,5 +15,12 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "h5generator": "^0.2.0",
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.1.1",
+    "bluebird": "^3.5.0",
+    "clicker": "^0.1.2"
+  }
 }

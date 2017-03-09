@@ -94,7 +94,8 @@ module.exports = class extends Generator {
         );
         [
             'gruntfile.js',
-            '.gitignore'
+            '.gitignore',
+            '.bowerrc'
         ].map(function (obj) {
             this.fs.copyTpl(
                 this.templatePath(obj),
@@ -110,7 +111,7 @@ module.exports = class extends Generator {
     install() {
         this.installDependencies({
             npm: true,
-            bower: false
+            bower: true
         })    
     }
     end() {
